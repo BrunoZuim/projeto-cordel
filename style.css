@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-family: 'Passion One', sans-serif;
+    font-size: 3em;
+    padding-top: 50px;
+}
+
+header {
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 170px;
+}
+
+header > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+article.finais {
+    text-align: left;
+    padding: 60px 0px 110px 30px;
+    font-size: 3.5vw;
+}
+
+article.iniciais {
+    text-align: left;
+    padding: 60px 0px 30px 30px;
+    font-size: 3.5vw;
+}
+
+div#joaninha {
+    background: url(imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+    padding: 60px 0px 110px 30px;
+}
+
+div.texto {
+    text-align: left;
+    margin-right: 50vw;
+    font-size: 3.5vw;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.444);
+    background-size: ;
+}
+
+div#livro {
+    background: url(imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+    padding: 60px 0px 110px 30px;
+}
+
+main p {
+    font-family: 'Sriracha', cursive;
+    font-size: ;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
